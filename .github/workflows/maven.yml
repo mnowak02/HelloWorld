@@ -23,12 +23,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up JDK 17
-      uses: actions/setup-java@v3
-      with:
-        java-version: '17'
-        distribution: 'temurin'
-        cache: maven
     - name: Run the scripts
       run: uptime
     #- name: Build with Maven
