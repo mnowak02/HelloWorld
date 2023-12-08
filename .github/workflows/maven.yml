@@ -9,8 +9,8 @@
 name: Java CI with Maven
 
 on:
-  schedule:
-    - cron: '*/2 * * * *'
+  #schedule:
+  #  - cron: '*/2 * * * *'
   #push:
   #  branches: [ "master" ]
   #pull_request:
